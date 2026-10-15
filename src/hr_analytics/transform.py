@@ -10,11 +10,8 @@ import pandas as pd
 
 def total_headcount(df: pd.DataFrame) -> int:
     """Total number of employees."""
-<<<<<<< HEAD
     return len(df)
-=======
     return int(len(df))
->>>>>>> 6bfcc6f (hr-analytics: simple Databricks reader for CI/CD demo)
 
 
 def headcount_by_department(df: pd.DataFrame) -> pd.DataFrame:
